@@ -2,8 +2,7 @@ import mongoose from "mongoose";
 
 export const  connectDB = async () =>{
 
-    await mongoose.connect('mongodb+srv://codecraft:S.un.shine1@cluster0.o8kcl.mongodb.net/feso').then(()=>console.log("DB Connected"));
-   
+    await mongoose.connect(process.env.MONGO_SECRET_KEY).then(()=>console.log("DB Connected"));
 }
 
 
