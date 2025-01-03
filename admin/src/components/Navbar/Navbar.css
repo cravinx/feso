@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo {
+    display: flex;
+    flex-direction: column;
+    width: max(10%,80px);
+    width: 150px;
+    color: #FF4C24;
+    font-weight: 900;
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.admin{
+    color:#555555;
+    font-weight: 500;
+    font-size: .4em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar .profile{
+    width: 40px;
+}
