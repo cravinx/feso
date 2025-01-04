@@ -11,7 +11,7 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
-import chef1 from './chef1.jpg'
+import chef1 from './feso.jpg'
 import chef2 from './chef2.jpg'
 
 import food_1 from './food_1.png'
@@ -54,6 +54,7 @@ import app_store from './app_store.png'
 import play_store from './play_store.png'
 import linkedin_icon from './linkedin_icon.png'
 import facebook_icon from './facebook_icon.png'
+import instagram_icon from './instagram_icon.png'
 import twitter_icon from './twitter_icon.png'
 import cross_icon from './cross_icon.png'
 import selector_icon from './selector_icon.png'
@@ -78,6 +79,7 @@ export const assets = {
     play_store,
     linkedin_icon,
     facebook_icon,
+    instagram_icon,
     twitter_icon,
     cross_icon,
     selector_icon,

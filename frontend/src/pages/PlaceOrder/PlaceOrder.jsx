@@ -234,7 +234,7 @@ const PlaceOrder = () => {
           <button className="place-order-submit" type="submit">
             {payment === "cod" ? "Place Order" : "Proceed To Payment"}
           </button>
-          <button onClick={() => navigate("/cart")}>Back To Cart</button>
+          <button onClick={() => { navigate("/cart"); handleMenu("cart") }}>Back To Cart</button>
         </div>
       </div>
     </form>

@@ -19,7 +19,7 @@ const About = () => {
         <div className="about-text-container">
           <h2 className="about-heading">About Feso</h2>
           <p className="about-paragraph">
-            Feso started in a small kitchen in 2015, with a simple idea: to make
+            Feso started in a small kitchen in 2024, with a simple idea: to make
             gourmet meals accessible to everyone. Our founder, inspired by their
             love of cooking and passion for technology, created Feso as a way to
             blend convenience with culinary excellence.

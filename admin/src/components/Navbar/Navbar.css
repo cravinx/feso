@@ -23,5 +23,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar .profile{
-    width: 40px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit:cover;
 }

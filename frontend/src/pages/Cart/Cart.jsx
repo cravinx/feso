@@ -1,9 +1,18 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./Cart.css";
 import { StoreContext } from "../../Context/StoreContext";
 import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
+  const [menu, setMenu] = useState(null);
+
+  const handleMenu = (item) => {
+    setMenu(item);
+    localStorage.setItem("menu", item);
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   const {
     cartItems,
     food_list,
@@ -84,10 +93,10 @@ const Cart = () => {
             </div>
           </div>
           <div className="buttonsc">
-            <button onClick={() => navigate("/order")}>
+            <button onClick={() => { navigate("/order"); handleMenu("order") }}>
               PROCEED TO CHECKOUT
             </button>
-            <button onClick={() => navigate("/")}>
+            <button onClick={() => { navigate("/"); handleMenu("home") }}>
               BACK TO MENU
             </button>
           </div>
